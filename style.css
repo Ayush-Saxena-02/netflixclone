@@ -1,0 +1,237 @@
+* {
+    padding: 0 px;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+body {
+    height: 100%;
+    background-color: black;
+}
+
+.main {
+    position: relative;
+    height: 80vh;
+    background-size: max(100vw, 1500px);
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(assets/image/netflixbackground.jpg);
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    height: 50px;
+
+    max-width: 60vw;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main .box {
+    position: absolute;
+
+    height: 80vh;
+    width: 100%;
+    top: 0;
+    opacity: 0.7;
+
+}
+
+nav button {
+    z-index: 10;
+    position: relative;
+
+
+}
+
+nav img {
+    z-index: 10;
+    color: red;
+    position: relative;
+
+}
+
+.text {
+    height: calc(100% - 50px) ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    color: white;
+    position: relative;
+    font-family: sans-serif;
+    gap: 20px;
+    padding: 0, 23px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.text> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.text> :nth-child(2) {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+.text:nth-child(3) {
+    font-weight: 300;
+    font-size: 23px;
+    text-align: center;
+}
+
+.sepration {
+    height: 5px;
+    background-color: rgb(118, 116, 116);
+}
+.redbtns {
+    background-color: red;
+margin: 2px;
+padding:3px 8px;
+border-radius: 2px;
+font-size: 15px;
+color: white;
+border-style: solid;
+border-width: 0.062;
+border-color: rgba(0,0,0,0);
+align-items:center;
+letter-spacing: normal;
+cursor: pointer;
+font-weight: bold;
+}
+.redbtnst {
+    background-color: red;
+margin: 2px;
+padding: 5px;
+border-radius: 2px;
+font-size: 25px;
+color: white;
+border-style: solid;
+border-width: 0.0625;
+border-color:rgba(0,0,0,0);
+align-items: center;
+letter-spacing: normal;
+cursor: pointer;
+display: inline;
+
+}
+.btn{
+    margin: 2px 2px;
+padding:3px 15px;
+border-radius: 0.1875px;
+font-size: 15px;
+color: white;
+border-style: solid;
+border-width: 0.062;
+border-color: rgba(0,0,0,0);
+align-items:center;
+letter-spacing: normal;
+cursor: pointer;
+background-color: rgba(28, 26, 26, 0.242);
+font-weight: bold;
+border: 1px solid rgba(255, 255, 255, 0.056);
+}
+.main input{
+    font-size: 15 px;
+    margin: 2px;
+    color: rgba(255, 255, 255, 0.559);
+padding: 11px;
+padding-right: 109px;
+border-radius: 2px;
+background-color: rgba(32, 32, 32, 0.3);
+}
+.textbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    margin-top: 5px;
+    color: white;
+    margin-bottom: 98px;;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    max-width: 40vw;
+    position: absolute;
+    z-index: 10;
+   
+    
+}
+.secimg video{
+    max-width: 40vw;
+position: relative;
+padding-top: 75px;
+padding-bottom: 0;
+padding-right: 0;
+padding-left: 42px;
+}
+.txt{
+    justify-content: center;
+    margin-top: 150px;
+    align-items: center;
+    color: white;
+    padding: 3px;
+}
+.first>div:first-child{
+    font-weight: 900;
+    font-size: 46px;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+.txt>span:nth-child(2){
+    padding-top: 5px;
+    display:inline-block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+gap: 5px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border {
+    width: 25px;
+    border: 2px solid gray;
+    color: white;
+}
+.border img{
+    size: 10vh;
+}
+ .faq .lastbox {
+    
+    padding: 20px;
+    color: white;
+    display: flex;
+    max-width: 40vw;
+    background-color: gray;
+    margin: auto;
+    justify-content: space-between;
+
+}
+.faq{
+    color: white;
+    padding: 34px;
+    background: black;
+}
+.faq h2{
+    text-align: center;
+}
